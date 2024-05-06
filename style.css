@@ -1,0 +1,94 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: lightgrey;
+  font-family: 'Playpen Sans', cursive;
+}
+
+div {
+  padding-top: 20px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: whitesmoke;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+p {
+  font-weight: 200;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+/* Modify the homepage */
+
+h1 {
+  padding-top: 40px;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-bottom: 20px;
+  color: black;
+  text-align: center;
+}
+
+#mainDuck {
+  max-width: 40%;
+  margin-left: 45%;
+  margin-top: 10%;
+  position: absolute;
+}
+
+#message {
+  position: absolute;
+  font-style: italic;
+  padding-top: 0px;
+  width: 30%;
+}
+
+#hats {
+  margin-left: 48.5%;
+  max-width: 10%;
+  padding: 0px;
+  position: absolute;
+  margin-top: 4%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#duckVideo {
+  width: 65%;
+  height: 75vh;
+  padding: 0px;
+  overflow: hidden;
+  border-radius: 10px;
+
+}
